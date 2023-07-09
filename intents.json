@@ -1,0 +1,174 @@
+{
+"intents":
+[
+            {
+             "tag":"greetings",
+             "patterns": ["henlo","hello","hey","hii","hii","heyy"],
+             "responses":["hello, how can i help you?","hey! what can i do for you?"]
+            },
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+             "responses":["you can call me EyeCareBot","i am EyeCareBot!"]
+            },
+            {
+             "tag":"Cataract symptoms",
+             "patterns": ["eyes are very sensitive to light",
+                          "i suffer from blurred or dim vision",
+                          "I get double vision",
+                          "cloudy area in the lens of the eye",
+                          "Seeing halos around lights",
+                          "Fading or yellowing of colors",
+                          "Difficulty seeing at night","Changes in the way i see color"],
+             "responses":["It seems that you are suffering from Cataract",
+                          "You might be having Cataract","Looks like you are suffering from Cataract"]
+            },
+            {
+             "tag":"Proptosis symptoms",
+             "patterns":["pain and redness in the eye","Periocular vision",
+                         "bulging in one eye","bulging in both eyes","eye soreness","sensitivity to light","difficulty moving the eyes","White part is more visible",
+                        "throbbing sensation in your eyes","i have blurred or double vision","eyelid swelling or redness","Muscle tightness that prevents from moving the eyes"],
+             "responses":["It seems that you are suffering from Proptosis","You might be having Proptosis","Looks like you are suffering from Proptosis"]
+            },
+            {
+             "tag":"Eye tumor symptoms",
+             "patterns":["complete or partial loss of sight"," Dark patch in the eye",
+                          "blurry vision with pain and a lump on the eyelids or around the eye","squiggly lines or spots",
+                        "dark spot in iris"],
+             "responses":["You might be suffering from Eye Tumour"]
+            },
+            {
+             "tag":"Dry eye syndrome symptoms",
+             "patterns":["stinging in the eyes, burning or scratchy sensation in eyes","stringy mucus in or around the eyes","difficulty wearing contact lenses","sensation of having something in the eyes scratchy sensation",
+                        "Watery eyes","dryness and redness in eyes"],
+             "responses":["It seems that you are suffering from Dry eye syndrome","You might be having Dry Eye Syndrome","Looks like you are suffering from Dry Eye Syndrome"]
+            },
+            {
+             "tag":"Glaucoma symptoms",
+             "patterns":["i suffer from loss of vision","frequent headaches, eye pain, vomiting","have a low vision and red eyes","blind spots in the eye","rainbow-colored halos around lights"],
+             "responses":["It seems that you are suffering from Glaucoma.Early detection of glaucoma through routine eye exams is the best way to protect eye health and prevent vision loss.",
+               "You might be having Glaucoma.Early detection of glaucoma through routine eye exams is the best way to protect eye health and prevent vision loss.",
+               "Looks like you are suffering from Glaucoma.Early detection of glaucoma through routine eye exams is the best way to protect eye health and prevent vision loss."]
+            },
+            {
+             "tag":"Retinal detachment symptoms",
+             "patterns":["sudden appearance of floaters and flashes of light","darkening in the peripheral vision","inability of seeing in dim light"],
+             "responses":["It seems that you are suffering from Retinal detachment","You might be having Retinal Detachment syndrome","Looks like you are suffering from Retinal detachment syndrome"]
+            },
+            {
+             "tag":"Strabismus symptoms",
+             "patterns":["crossed eyes and the eyes do not move together","eye strain and cannot focus on the same object"],
+             "responses":["It seems that you are suffering from Strabismus","You might be having Strabismus","Looks like you are suffering from Strabismus"]
+            },
+            {
+             "tag":"Uveitis symptoms",
+             "patterns":["decreased vision","sensitivity from light","fluid leaking out of blood vessels or an organ and swelling"],
+             "responses":["It seems that you are suffering from Uveitis","You might be having Uveitis","Looks like you are suffering from Uveitis"]
+            },
+            {
+              "tag": "Cataract prevention",
+              "patterns": ["how can i prevent the cataract from further spreading?","prevention of cataract","how to cure cataract","more methods to prevent cataract"],
+              "responses": ["If you are a regular smoker, quit smoking. Protect your eyes from the sun and get regular eye care.Looking for best cataract treatment?"]
+            },
+            {
+              "tag": "Proptosis prevention",
+              "patterns": ["how can i prevent the proptosis from further spreading?","prevention of proptosis","how to cure proptosis","more methods to prevent proptosis"],
+              "responses": ["If you are a regular smoker, quit smoking. Keeping thyroid levels in check. Consult a good eye care."]
+            },
+             {
+              "tag": "Eye tumor prevention",
+              "patterns": ["how can i prevent the eye tumour from further spreading?","prevention of eye tumour","how to cure yee tumour"],
+              "responses": ["You might want to consult an eye care specialist."]
+            },
+             {
+              "tag": "Dry eye syndrome prevention",
+              "patterns": ["how can i prevent the dry eye from further spreading?","prevention of dry eye syndrome","how to cure dry eye","more methods to prevent dry eye"],
+              "responses": ["If you are a regular smoker, quit smoking. Take eye breaks during long tasks and get consult an eye care.Looking for best dry eye treatment?",
+                "Consider wearing wraparound sunglasses or other protective eye wear and consult an eye specialist. If you are a regular smoker, quit smoking.Looking for best dry eye treatment?"]
+            },
+            {
+              "tag": "Glaucoma prevention",
+              "patterns": ["how can i prevent the glaucoma from further spreading?","prevention of glaucoma","how to cure dry eye","more methods to prevent glaucoma"],
+              "responses": ["Follow a good exercise routine to reduce eye pressure.Looking for best glaucoma treatment?",
+                "Consume a Vitamin and Nutrient-rich diet.Looking for best glaucoma treatment?",
+                "Take the prescribed eye drops and other medicines as advised by the doctor.Looking for best glaucoma treatment?"]
+            },
+            {
+              "tag": "Retinal detachment prevention",
+              "patterns": ["how can i prevent the retinal detachment from further spreading?","prevention of retinal detachment","how to cure retinal detachment","more methods to prevent retinal detachment"],
+              "responses": ["Get regular eye care.Looking for best retinal detachment treatment?",
+                "Use safety goggles or other protection for your eyes when playing sports or doing other risky activities.Looking for best retinal detachment treatment?"]
+            },
+            {
+              "tag": "Strabismus prevention",
+              "patterns": ["how can i prevent the strabismus from further spreading?","prevention of strabismus","how to cure strabismus","more methods to prevent strabismus"],
+              "responses": ["Simple eye exercises can help in treating Strabismus.Exercises:1.Pencil push-ups 2.Brock string 3.Barrel cards .Looking for best strabismus treatment?"]
+            },
+            {
+              "tag": "Uveitis prevention",
+              "patterns": ["how can i prevent the uveitis from further spreading?","prevention of uveitis","how to cure uveitis","more methods to prevent uveitis"],
+              "responses": ["Maintain good eye health and consult a good eye specialist.You can also lower your risk by quitting smoking.Looking for best strabismus treatment?"]
+            },
+            {
+            "tag":"thane eye care",
+            "patterns":["i live in thane","i reside in thane","i live near thane","can i get a good eye care hospital in thane","in search for a good eye care in thane","where can i get eye care in thane","more eye cares in thane"],
+            "responses":["RANADE SUPER-SPECIALITY EYE CENTER 103, Soham CHS, Ram Maruti Road, Above Karekar Jewellers, opp. Shiva Prasad Hotel, Thane West, Thane, Maharashtra 400602 Phone: 093214 42297",
+                         "ISHA NETRALAYA B wing, Dev Corpora Cadbury Junction, Eastern Express Hwy, Khopat, Thane West, Thane, Maharashtra 400601 Phone: 02249746854",
+                         "WAVIKAR EYE INSTITUE 4th & 5th Floor, Amber Arcade , Near Lodha Paradise Bhivandi, Bypass Road, Majiwada, Thane, Maharashtra 400601 Phone: 09157709709",
+                         "SHIV DRUSHTI EYE HOSPITAL 27 Gbr , Cosmos , Above Hotel Veggies / Bikaner/ Kasarvadavli naka, Ghodbunder Rd, Thane West, Maharashtra 400615 Phone: 09699819809",
+                         "ARORA EYE CLINIC HIRANANDANI MEADOWS, Dr. Ruchika Eye Clinic, Shop #16, Block #2 Emerald Plaza Building, Shrimati Glads, Smt Gladys Alvares Rd, behind SCB Bank ATM, Thane West, Maharashtra 400610 Phone: 09321883463"]
+            },
+            {
+            "tag":"airoli eye care",
+            "patterns":["i live in airoli","i reside in airoli","i live near airoli","do you know a good eye care hospital in airoli","want a good eye care in airoli","where can i get eye care in airoli","more eye cares in airoli"],
+            "responses":["SURYA EYE HOSPITAL 1st Floor, Superior Micron Heights, near Apple Hospital, Sec -8, Sector 7, Airoli, Navi Mumbai, Maharashtra 400701 Phone: 080705 04504",
+                         "SURUCHI EYE HOSPITAL & LASIK CENTRE U, 123, Ramdas Swamy Marg, Sector 4, Airoli, Navi Mumbai, Maharashtra 400708 Phone: 093228 91018",
+                         "SHREE EYE HOSPITAL National Co-Operative Housing, bus depot, Rajrishi Shahu Maharajah Marg, behind airoli, Sector 3, Airoli, Navi Mumbai, Maharashtra 400708 Phone: 09820304847"]
+            },
+            {
+            "tag":"ghansoli eye care",
+            "patterns":["i live in ghansoli","i reside in ghansoli","i live near ghansoli","where can i get eye care in ghansoli","more eye cares in ghansoli"],
+            "responses":["ICARE EYE HOSPITAL Plot No.23, Janki Ashish, Savoli, Sector 1, Ghansoli, Navi Mumbai, Maharashtra 400701 Phone: 093214 54901",
+                         "PRABHAT EYE HOSPITAL Juhi Serenity, Office 1-3, Plot No 24, Sector 8, Ghansoli, Navi Mumbai, Maharashtra 400701 Phone: 02268340414"]
+            },
+            {
+            "tag":"koparkhairne eye care",
+            "patterns":["i live in koparkhairne","i reside in koparkhairne","i live near koparkhairne","where can i get eye care in koparkhairne","more eye cares in koparkhairne"],
+            "responses":["DAKSHITH EYE CARE Shree Ravechi CHS, Shop no 4 Plot no 14 15, next to Sai Snehadeep Hospital, Sector 20, Kopar Khairane, Navi Mumbai, Maharashtra 400709 Phone: 09324247105",
+                         "LIONS HOSPITAL 4223+7WF, 101, Vashi Kopar Khairane Rd, Sector 7, Kopar Khairane, Navi Mumbai, Maharashtra 400709 Phone: 02227544012"]
+            },
+            {
+            "tag":"vashi eye care",
+            "patterns":["i live in vashi","i reside in vashi","i live near vashi","where can i get eye care in vashi","more eye cares in vashi"],
+            "responses":["SWAARASHI NETRALAYA 16, Vashi Kopar Khairane Rd, Juhu Nagar, Sector 28, Vashi, Navi Mumbai, Maharashtra 400703 Phone: 09767192021",
+                         "CONTACARE EYE HOSPITAL Sahakar Bhawan, 10, Sector 10, Vashi, Navi Mumbai, Maharashtra 400703 Phone: 09324999941",
+                         "SHREE EYE CLINIC Shop No 8, Daffodils CHS, near Gaon Devi Mandir, Juhu Nagar, Juhu Village, Sector 14, Vashi, Navi Mumbai, Maharashtra 400703 Phone: 0998760404",
+                         "ADVANCED EYE HOSPITAL & INSTITUTE (A UNIT OF DR. AGARWALS EYE HOSPPITAL) No 30, The Affaires Sanpada, Palm Beach Rd, opposite Bhumi Raj Costa Rica Building, Sector 17, Vashi, Navi Mumbai, Maharashtra 400705 Phone: 08048193520",
+                         "Shree Ramkrishna Netralaya Shop no. 106 -107, 108 - 109, near McDonald, Sector 17, Vashi, Navi Mumbai, Maharashtra 400703 Phone: 09819860879"]
+            },
+            {
+            "tag":"nerul eye care",
+            "patterns":["i live in nerul","i reside in nerul","i live near nerul","where can i get eye care in nerul","more eye cares in nerul"],
+            "responses":["KALYANI EYE HOSPITAL Ambika Shopping Centre, MGM School Marg, Sector 8, Nerul, Navi Mumbai, Maharashtra 400706 Phone: 02227727627",
+                         "DR. RAHUL PATORIA Mahvir Niwas, Kamla Devi Marg, Nerul East, Sector 21, Nerul, Navi Mumbai, Maharashtra 400706 Phone: 09821167418"]
+            },
+            {
+            "tag":"seawoods eye care",
+            "patterns":["i live in seawoods","i reside in seawoods","i live near seawoods","where can i get eye care in seawoods","more eye cares in seawoods"],
+            "responses":["SHREE RAMKRISHNA NETRALAYA Shop no. 1/2 ,The Residence Sector 46A, Plot no. 4, opp. More Super Market, Seawoods West, Navi Mumbai, Maharashtra 400706 Phone: 07304186490",
+                         "EYE MAX SUPER SPECIALITY EYE CENTER Mata Amritanandamayi Marg, Seawoods West, Sector 40, Seawoods, Navi Mumbai, Maharashtra 400706 Phone: 02227727050"]
+            },
+            {
+            "tag":"belapur eye care",
+            "patterns":["i live in belapur","i reside in belapur","i live near belapur","where can i get eye care in belapur","more eye cares in belapur"],
+            "responses":["NAKSHATRA EYE CARE & POLYCLINIC Plot 92,zShop no. 14, Maruti Paradise CHS, 95, Sector 15, CBD Belapur, Navi Mumbai, Maharashtra 400614 Phone: 09930007490",
+                         "Apollo Hospitals DR. ABHISHEK, Plot # 13, Parsik Hill Rd, off Uran Road, opp. Nerul Wonders Park, Sector 23, CBD Belapur, Mumbai, Maharashtra 400614 Phone: 01414931241",
+                         "MGM HOSPITAL AND RESEARCH CENTER 1A, Sector 1A, CBD Belapur, Navi Mumbai, Maharashtra 400614 Phone: 02235142400"]
+            },
+            {
+             "tag":"Consultation",
+             "patterns": ["how can i get an appointment","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?"],
+             "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+            }
+]
+}
